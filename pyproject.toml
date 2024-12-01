@@ -1,0 +1,17 @@
+[project]
+name = "backstage"
+version = "0.1.0"
+description = "Federated plateform for music creators"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "argon>=0.2.0",
+    "flask-migrate>=4.0.7",
+    "flask-security>=5.5.2",
+    "flask-sqlalchemy>=3.1.1",
+    "flask>=3.1.0",
+    "gunicorn>=23.0.0",
+    "python-dotenv>=1.0.1",
+    "setuptools>=75.6.0",
+    "sqlalchemy>=2.0.36",
+]
